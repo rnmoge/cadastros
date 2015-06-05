@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2b2a94da-b271-4dc3-89f7-5ecb1e6db46d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:1043/ServicoCadastrosPrincipais.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicoCadastrosPrincipais1.wsdl" MetadataType="Wsdl" ID="01af49bd-9db2-48ed-8316-db2f6e0cdb59" SourceId="1" SourceUrl="http://localhost:1043/ServicoCadastrosPrincipais.svc?wsdl" />
+    <MetadataFile FileName="ServicoCadastrosPrincipais2.xsd" MetadataType="Schema" ID="90a514c6-9025-424d-83c6-866519914197" SourceId="1" SourceUrl="http://localhost:1043/ServicoCadastrosPrincipais.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicoCadastrosPrincipais21.xsd" MetadataType="Schema" ID="19dc4c1e-9895-49a0-bb44-5aeb912bbeeb" SourceId="1" SourceUrl="http://localhost:1043/ServicoCadastrosPrincipais.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicoCadastrosPrincipais22.xsd" MetadataType="Schema" ID="c1d55bf2-3225-4aa8-86cb-60e5d42b191f" SourceId="1" SourceUrl="http://localhost:1043/ServicoCadastrosPrincipais.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicoCadastrosPrincipais1.disco" MetadataType="Disco" ID="9bacbc79-00a2-4c48-bba5-1acf78e5350d" SourceId="1" SourceUrl="http://localhost:1043/ServicoCadastrosPrincipais.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
