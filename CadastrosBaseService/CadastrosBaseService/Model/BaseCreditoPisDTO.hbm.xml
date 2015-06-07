@@ -4,7 +4,9 @@
                    namespace="CadastrosBaseService.Model" default-lazy="false">
   <class name="BaseCreditoPisDTO" table="base_credito_pis">
     <id name="Id" column="ID">
-      <generator class="identity"/>
+      <generator class="sequence">
+        <param name="sequence">base_credito_pis_id_seq</param>
+      </generator>      
     </id>
     <property name="Codigo" column="CODIGO"/>
     <property name="Descricao" column="DESCRICAO"/>

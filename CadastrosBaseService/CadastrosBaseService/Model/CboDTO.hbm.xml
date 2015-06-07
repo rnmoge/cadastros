@@ -4,7 +4,9 @@
                    namespace="CadastrosBaseService.Model" default-lazy="false">
   <class name="CboDTO" table="cbo">
     <id name="id" column="ID">
-      <generator class="identity" />
+      <generator class="sequence">
+        <param name="sequence">cbo_id_seq</param>
+      </generator>
     </id>
     <property name="codigo" column="CODIGO" />
     <property name="codigo1994" column="CODIGO_1994" />

@@ -4,7 +4,9 @@
        namespace="CadastrosBaseService.Model" default-lazy="false">
 <class name="CepDTO" table="cep">
    <id name="Id" column="ID">
-      <generator class="identity" />
+     <generator class="sequence">
+       <param name="sequence">cep_id_seq</param>
+     </generator>
     </id>
     <property name="Cep" column="CEP" type="string"/>
     <property name="Logradouro" column="LOGRADOURO"/>

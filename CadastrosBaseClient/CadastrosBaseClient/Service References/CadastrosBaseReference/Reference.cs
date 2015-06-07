@@ -5883,1474 +5883,6 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="CstIcmsADTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
-    [System.SerializableAttribute()]
-    public partial class CstIcmsADTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string CodigoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DescricaoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string ObservacaoField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Codigo {
-            get {
-                return this.CodigoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.CodigoField, value) != true)) {
-                    this.CodigoField = value;
-                    this.RaisePropertyChanged("Codigo");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Descricao {
-            get {
-                return this.DescricaoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
-                    this.DescricaoField = value;
-                    this.RaisePropertyChanged("Descricao");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Observacao {
-            get {
-                return this.ObservacaoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.ObservacaoField, value) != true)) {
-                    this.ObservacaoField = value;
-                    this.RaisePropertyChanged("Observacao");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="CstIcmsBDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
-    [System.SerializableAttribute()]
-    public partial class CstIcmsBDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string CodigoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DescricaoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string ObservacaoField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Codigo {
-            get {
-                return this.CodigoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.CodigoField, value) != true)) {
-                    this.CodigoField = value;
-                    this.RaisePropertyChanged("Codigo");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Descricao {
-            get {
-                return this.DescricaoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
-                    this.DescricaoField = value;
-                    this.RaisePropertyChanged("Descricao");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Observacao {
-            get {
-                return this.ObservacaoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.ObservacaoField, value) != true)) {
-                    this.ObservacaoField = value;
-                    this.RaisePropertyChanged("Observacao");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="CstPisDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
-    [System.SerializableAttribute()]
-    public partial class CstPisDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string CodigoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DescricaoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Codigo {
-            get {
-                return this.CodigoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.CodigoField, value) != true)) {
-                    this.CodigoField = value;
-                    this.RaisePropertyChanged("Codigo");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Descricao {
-            get {
-                return this.DescricaoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
-                    this.DescricaoField = value;
-                    this.RaisePropertyChanged("Descricao");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="SituacaoForCliDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
-    [System.SerializableAttribute()]
-    public partial class SituacaoForCliDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DescricaoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NomeField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Descricao {
-            get {
-                return this.DescricaoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
-                    this.DescricaoField = value;
-                    this.RaisePropertyChanged("Descricao");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Nome {
-            get {
-                return this.NomeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NomeField, value) != true)) {
-                    this.NomeField = value;
-                    this.RaisePropertyChanged("Nome");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="AtividadeForCliDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
-    [System.SerializableAttribute()]
-    public partial class AtividadeForCliDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DescricaoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NomeField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Descricao {
-            get {
-                return this.DescricaoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
-                    this.DescricaoField = value;
-                    this.RaisePropertyChanged("Descricao");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Nome {
-            get {
-                return this.NomeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NomeField, value) != true)) {
-                    this.NomeField = value;
-                    this.RaisePropertyChanged("Nome");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ChequeDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
-    [System.SerializableAttribute()]
-    public partial class ChequeDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<System.DateTime> DataStatusField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdTalonarioChequeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> NumeroField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string StatusChequeField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<System.DateTime> DataStatus {
-            get {
-                return this.DataStatusField;
-            }
-            set {
-                if ((this.DataStatusField.Equals(value) != true)) {
-                    this.DataStatusField = value;
-                    this.RaisePropertyChanged("DataStatus");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int IdTalonarioCheque {
-            get {
-                return this.IdTalonarioChequeField;
-            }
-            set {
-                if ((this.IdTalonarioChequeField.Equals(value) != true)) {
-                    this.IdTalonarioChequeField = value;
-                    this.RaisePropertyChanged("IdTalonarioCheque");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Numero {
-            get {
-                return this.NumeroField;
-            }
-            set {
-                if ((this.NumeroField.Equals(value) != true)) {
-                    this.NumeroField = value;
-                    this.RaisePropertyChanged("Numero");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string StatusCheque {
-            get {
-                return this.StatusChequeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.StatusChequeField, value) != true)) {
-                    this.StatusChequeField = value;
-                    this.RaisePropertyChanged("StatusCheque");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="TalonarioChequeDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
-    [System.SerializableAttribute()]
-    public partial class TalonarioChequeDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdContaCaixaField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdEmpresaField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> NumeroField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string StatusTalaoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string TalaoField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int IdContaCaixa {
-            get {
-                return this.IdContaCaixaField;
-            }
-            set {
-                if ((this.IdContaCaixaField.Equals(value) != true)) {
-                    this.IdContaCaixaField = value;
-                    this.RaisePropertyChanged("IdContaCaixa");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int IdEmpresa {
-            get {
-                return this.IdEmpresaField;
-            }
-            set {
-                if ((this.IdEmpresaField.Equals(value) != true)) {
-                    this.IdEmpresaField = value;
-                    this.RaisePropertyChanged("IdEmpresa");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Numero {
-            get {
-                return this.NumeroField;
-            }
-            set {
-                if ((this.NumeroField.Equals(value) != true)) {
-                    this.NumeroField = value;
-                    this.RaisePropertyChanged("Numero");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string StatusTalao {
-            get {
-                return this.StatusTalaoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.StatusTalaoField, value) != true)) {
-                    this.StatusTalaoField = value;
-                    this.RaisePropertyChanged("StatusTalao");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Talao {
-            get {
-                return this.TalaoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.TalaoField, value) != true)) {
-                    this.TalaoField = value;
-                    this.RaisePropertyChanged("Talao");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ContaCaixaDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
-    [System.SerializableAttribute()]
-    public partial class ContaCaixaDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string CodigoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DescricaoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdAgenciaBancoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdContabilContaField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdEmpresaField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NomeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string TipoField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Codigo {
-            get {
-                return this.CodigoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.CodigoField, value) != true)) {
-                    this.CodigoField = value;
-                    this.RaisePropertyChanged("Codigo");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Descricao {
-            get {
-                return this.DescricaoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
-                    this.DescricaoField = value;
-                    this.RaisePropertyChanged("Descricao");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> IdAgenciaBanco {
-            get {
-                return this.IdAgenciaBancoField;
-            }
-            set {
-                if ((this.IdAgenciaBancoField.Equals(value) != true)) {
-                    this.IdAgenciaBancoField = value;
-                    this.RaisePropertyChanged("IdAgenciaBanco");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> IdContabilConta {
-            get {
-                return this.IdContabilContaField;
-            }
-            set {
-                if ((this.IdContabilContaField.Equals(value) != true)) {
-                    this.IdContabilContaField = value;
-                    this.RaisePropertyChanged("IdContabilConta");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int IdEmpresa {
-            get {
-                return this.IdEmpresaField;
-            }
-            set {
-                if ((this.IdEmpresaField.Equals(value) != true)) {
-                    this.IdEmpresaField = value;
-                    this.RaisePropertyChanged("IdEmpresa");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Nome {
-            get {
-                return this.NomeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NomeField, value) != true)) {
-                    this.NomeField = value;
-                    this.RaisePropertyChanged("Nome");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Tipo {
-            get {
-                return this.TipoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.TipoField, value) != true)) {
-                    this.TipoField = value;
-                    this.RaisePropertyChanged("Tipo");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ConvenioDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
-    [System.SerializableAttribute()]
-    public partial class ConvenioDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string BairroField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string ContatoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<System.DateTime> DataCadastroField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<System.DateTime> DataVencimentoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<double> DescontoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DescricaoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdContabilContaField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdEmpresaField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdPessoaField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string LogradouroField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> MunicipioIbgeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NumeroField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string TelefoneField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string UfField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Bairro {
-            get {
-                return this.BairroField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.BairroField, value) != true)) {
-                    this.BairroField = value;
-                    this.RaisePropertyChanged("Bairro");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Contato {
-            get {
-                return this.ContatoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.ContatoField, value) != true)) {
-                    this.ContatoField = value;
-                    this.RaisePropertyChanged("Contato");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<System.DateTime> DataCadastro {
-            get {
-                return this.DataCadastroField;
-            }
-            set {
-                if ((this.DataCadastroField.Equals(value) != true)) {
-                    this.DataCadastroField = value;
-                    this.RaisePropertyChanged("DataCadastro");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<System.DateTime> DataVencimento {
-            get {
-                return this.DataVencimentoField;
-            }
-            set {
-                if ((this.DataVencimentoField.Equals(value) != true)) {
-                    this.DataVencimentoField = value;
-                    this.RaisePropertyChanged("DataVencimento");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<double> Desconto {
-            get {
-                return this.DescontoField;
-            }
-            set {
-                if ((this.DescontoField.Equals(value) != true)) {
-                    this.DescontoField = value;
-                    this.RaisePropertyChanged("Desconto");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Descricao {
-            get {
-                return this.DescricaoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
-                    this.DescricaoField = value;
-                    this.RaisePropertyChanged("Descricao");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> IdContabilConta {
-            get {
-                return this.IdContabilContaField;
-            }
-            set {
-                if ((this.IdContabilContaField.Equals(value) != true)) {
-                    this.IdContabilContaField = value;
-                    this.RaisePropertyChanged("IdContabilConta");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int IdEmpresa {
-            get {
-                return this.IdEmpresaField;
-            }
-            set {
-                if ((this.IdEmpresaField.Equals(value) != true)) {
-                    this.IdEmpresaField = value;
-                    this.RaisePropertyChanged("IdEmpresa");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int IdPessoa {
-            get {
-                return this.IdPessoaField;
-            }
-            set {
-                if ((this.IdPessoaField.Equals(value) != true)) {
-                    this.IdPessoaField = value;
-                    this.RaisePropertyChanged("IdPessoa");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Logradouro {
-            get {
-                return this.LogradouroField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.LogradouroField, value) != true)) {
-                    this.LogradouroField = value;
-                    this.RaisePropertyChanged("Logradouro");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> MunicipioIbge {
-            get {
-                return this.MunicipioIbgeField;
-            }
-            set {
-                if ((this.MunicipioIbgeField.Equals(value) != true)) {
-                    this.MunicipioIbgeField = value;
-                    this.RaisePropertyChanged("MunicipioIbge");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Numero {
-            get {
-                return this.NumeroField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NumeroField, value) != true)) {
-                    this.NumeroField = value;
-                    this.RaisePropertyChanged("Numero");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Telefone {
-            get {
-                return this.TelefoneField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.TelefoneField, value) != true)) {
-                    this.TelefoneField = value;
-                    this.RaisePropertyChanged("Telefone");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Uf {
-            get {
-                return this.UfField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.UfField, value) != true)) {
-                    this.UfField = value;
-                    this.RaisePropertyChanged("Uf");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="OperadoraCartaoDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
-    [System.SerializableAttribute()]
-    public partial class OperadoraCartaoDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string BandeiraField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string Fone1Field;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string Fone2Field;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdContaCaixaField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdContabilContaField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NomeField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<decimal> TaxaAdmField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<decimal> TaxaAdmDebitoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<decimal> ValorAluguelPosPinField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> VencimentoAluguelField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Bandeira {
-            get {
-                return this.BandeiraField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.BandeiraField, value) != true)) {
-                    this.BandeiraField = value;
-                    this.RaisePropertyChanged("Bandeira");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Fone1 {
-            get {
-                return this.Fone1Field;
-            }
-            set {
-                if ((object.ReferenceEquals(this.Fone1Field, value) != true)) {
-                    this.Fone1Field = value;
-                    this.RaisePropertyChanged("Fone1");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Fone2 {
-            get {
-                return this.Fone2Field;
-            }
-            set {
-                if ((object.ReferenceEquals(this.Fone2Field, value) != true)) {
-                    this.Fone2Field = value;
-                    this.RaisePropertyChanged("Fone2");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int IdContaCaixa {
-            get {
-                return this.IdContaCaixaField;
-            }
-            set {
-                if ((this.IdContaCaixaField.Equals(value) != true)) {
-                    this.IdContaCaixaField = value;
-                    this.RaisePropertyChanged("IdContaCaixa");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> IdContabilConta {
-            get {
-                return this.IdContabilContaField;
-            }
-            set {
-                if ((this.IdContabilContaField.Equals(value) != true)) {
-                    this.IdContabilContaField = value;
-                    this.RaisePropertyChanged("IdContabilConta");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Nome {
-            get {
-                return this.NomeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NomeField, value) != true)) {
-                    this.NomeField = value;
-                    this.RaisePropertyChanged("Nome");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<decimal> TaxaAdm {
-            get {
-                return this.TaxaAdmField;
-            }
-            set {
-                if ((this.TaxaAdmField.Equals(value) != true)) {
-                    this.TaxaAdmField = value;
-                    this.RaisePropertyChanged("TaxaAdm");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<decimal> TaxaAdmDebito {
-            get {
-                return this.TaxaAdmDebitoField;
-            }
-            set {
-                if ((this.TaxaAdmDebitoField.Equals(value) != true)) {
-                    this.TaxaAdmDebitoField = value;
-                    this.RaisePropertyChanged("TaxaAdmDebito");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<decimal> ValorAluguelPosPin {
-            get {
-                return this.ValorAluguelPosPinField;
-            }
-            set {
-                if ((this.ValorAluguelPosPinField.Equals(value) != true)) {
-                    this.ValorAluguelPosPinField = value;
-                    this.RaisePropertyChanged("ValorAluguelPosPin");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> VencimentoAluguel {
-            get {
-                return this.VencimentoAluguelField;
-            }
-            set {
-                if ((this.VencimentoAluguelField.Equals(value) != true)) {
-                    this.VencimentoAluguelField = value;
-                    this.RaisePropertyChanged("VencimentoAluguel");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="OperadoraPlanoSaudeDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
-    [System.SerializableAttribute()]
-    public partial class OperadoraPlanoSaudeDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdContabilContaField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdPessoaField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string RegistroAnsField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> IdContabilConta {
-            get {
-                return this.IdContabilContaField;
-            }
-            set {
-                if ((this.IdContabilContaField.Equals(value) != true)) {
-                    this.IdContabilContaField = value;
-                    this.RaisePropertyChanged("IdContabilConta");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int IdPessoa {
-            get {
-                return this.IdPessoaField;
-            }
-            set {
-                if ((this.IdPessoaField.Equals(value) != true)) {
-                    this.IdPessoaField = value;
-                    this.RaisePropertyChanged("IdPessoa");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string RegistroAns {
-            get {
-                return this.RegistroAnsField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.RegistroAnsField, value) != true)) {
-                    this.RegistroAnsField = value;
-                    this.RaisePropertyChanged("RegistroAns");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="TipoRelacionamentoDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
-    [System.SerializableAttribute()]
-    public partial class TipoRelacionamentoDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
-        
-        [System.NonSerializedAttribute()]
-        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string CodigoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string DescricaoField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdField;
-        
-        [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NomeField;
-        
-        [global::System.ComponentModel.BrowsableAttribute(false)]
-        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
-            get {
-                return this.extensionDataField;
-            }
-            set {
-                this.extensionDataField = value;
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Codigo {
-            get {
-                return this.CodigoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.CodigoField, value) != true)) {
-                    this.CodigoField = value;
-                    this.RaisePropertyChanged("Codigo");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Descricao {
-            get {
-                return this.DescricaoField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
-                    this.DescricaoField = value;
-                    this.RaisePropertyChanged("Descricao");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public int Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
-        public string Nome {
-            get {
-                return this.NomeField;
-            }
-            set {
-                if ((object.ReferenceEquals(this.NomeField, value) != true)) {
-                    this.NomeField = value;
-                    this.RaisePropertyChanged("Nome");
-                }
-            }
-        }
-        
-        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
-        
-        protected void RaisePropertyChanged(string propertyName) {
-            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
-            if ((propertyChanged != null)) {
-                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
     [System.Runtime.Serialization.DataContractAttribute(Name="CboDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
     [System.SerializableAttribute()]
     public partial class CboDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
@@ -8885,6 +7417,1474 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
         }
     }
     
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="CstIcmsADTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
+    [System.SerializableAttribute()]
+    public partial class CstIcmsADTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CodigoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescricaoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ObservacaoField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Codigo {
+            get {
+                return this.CodigoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CodigoField, value) != true)) {
+                    this.CodigoField = value;
+                    this.RaisePropertyChanged("Codigo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Descricao {
+            get {
+                return this.DescricaoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
+                    this.DescricaoField = value;
+                    this.RaisePropertyChanged("Descricao");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Observacao {
+            get {
+                return this.ObservacaoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ObservacaoField, value) != true)) {
+                    this.ObservacaoField = value;
+                    this.RaisePropertyChanged("Observacao");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="CstIcmsBDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
+    [System.SerializableAttribute()]
+    public partial class CstIcmsBDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CodigoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescricaoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ObservacaoField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Codigo {
+            get {
+                return this.CodigoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CodigoField, value) != true)) {
+                    this.CodigoField = value;
+                    this.RaisePropertyChanged("Codigo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Descricao {
+            get {
+                return this.DescricaoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
+                    this.DescricaoField = value;
+                    this.RaisePropertyChanged("Descricao");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Observacao {
+            get {
+                return this.ObservacaoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ObservacaoField, value) != true)) {
+                    this.ObservacaoField = value;
+                    this.RaisePropertyChanged("Observacao");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="CstPisDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
+    [System.SerializableAttribute()]
+    public partial class CstPisDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CodigoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescricaoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Codigo {
+            get {
+                return this.CodigoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CodigoField, value) != true)) {
+                    this.CodigoField = value;
+                    this.RaisePropertyChanged("Codigo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Descricao {
+            get {
+                return this.DescricaoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
+                    this.DescricaoField = value;
+                    this.RaisePropertyChanged("Descricao");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="SituacaoForCliDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
+    [System.SerializableAttribute()]
+    public partial class SituacaoForCliDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescricaoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NomeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Descricao {
+            get {
+                return this.DescricaoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
+                    this.DescricaoField = value;
+                    this.RaisePropertyChanged("Descricao");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Nome {
+            get {
+                return this.NomeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NomeField, value) != true)) {
+                    this.NomeField = value;
+                    this.RaisePropertyChanged("Nome");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="AtividadeForCliDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
+    [System.SerializableAttribute()]
+    public partial class AtividadeForCliDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescricaoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NomeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Descricao {
+            get {
+                return this.DescricaoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
+                    this.DescricaoField = value;
+                    this.RaisePropertyChanged("Descricao");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Nome {
+            get {
+                return this.NomeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NomeField, value) != true)) {
+                    this.NomeField = value;
+                    this.RaisePropertyChanged("Nome");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ChequeDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
+    [System.SerializableAttribute()]
+    public partial class ChequeDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<System.DateTime> DataStatusField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdTalonarioChequeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> NumeroField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusChequeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<System.DateTime> DataStatus {
+            get {
+                return this.DataStatusField;
+            }
+            set {
+                if ((this.DataStatusField.Equals(value) != true)) {
+                    this.DataStatusField = value;
+                    this.RaisePropertyChanged("DataStatus");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int IdTalonarioCheque {
+            get {
+                return this.IdTalonarioChequeField;
+            }
+            set {
+                if ((this.IdTalonarioChequeField.Equals(value) != true)) {
+                    this.IdTalonarioChequeField = value;
+                    this.RaisePropertyChanged("IdTalonarioCheque");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Numero {
+            get {
+                return this.NumeroField;
+            }
+            set {
+                if ((this.NumeroField.Equals(value) != true)) {
+                    this.NumeroField = value;
+                    this.RaisePropertyChanged("Numero");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string StatusCheque {
+            get {
+                return this.StatusChequeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusChequeField, value) != true)) {
+                    this.StatusChequeField = value;
+                    this.RaisePropertyChanged("StatusCheque");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="TalonarioChequeDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
+    [System.SerializableAttribute()]
+    public partial class TalonarioChequeDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdContaCaixaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdEmpresaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> NumeroField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string StatusTalaoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TalaoField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int IdContaCaixa {
+            get {
+                return this.IdContaCaixaField;
+            }
+            set {
+                if ((this.IdContaCaixaField.Equals(value) != true)) {
+                    this.IdContaCaixaField = value;
+                    this.RaisePropertyChanged("IdContaCaixa");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int IdEmpresa {
+            get {
+                return this.IdEmpresaField;
+            }
+            set {
+                if ((this.IdEmpresaField.Equals(value) != true)) {
+                    this.IdEmpresaField = value;
+                    this.RaisePropertyChanged("IdEmpresa");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Numero {
+            get {
+                return this.NumeroField;
+            }
+            set {
+                if ((this.NumeroField.Equals(value) != true)) {
+                    this.NumeroField = value;
+                    this.RaisePropertyChanged("Numero");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string StatusTalao {
+            get {
+                return this.StatusTalaoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.StatusTalaoField, value) != true)) {
+                    this.StatusTalaoField = value;
+                    this.RaisePropertyChanged("StatusTalao");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Talao {
+            get {
+                return this.TalaoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TalaoField, value) != true)) {
+                    this.TalaoField = value;
+                    this.RaisePropertyChanged("Talao");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ContaCaixaDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
+    [System.SerializableAttribute()]
+    public partial class ContaCaixaDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CodigoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescricaoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdAgenciaBancoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdContabilContaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdEmpresaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NomeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TipoField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Codigo {
+            get {
+                return this.CodigoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CodigoField, value) != true)) {
+                    this.CodigoField = value;
+                    this.RaisePropertyChanged("Codigo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Descricao {
+            get {
+                return this.DescricaoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
+                    this.DescricaoField = value;
+                    this.RaisePropertyChanged("Descricao");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> IdAgenciaBanco {
+            get {
+                return this.IdAgenciaBancoField;
+            }
+            set {
+                if ((this.IdAgenciaBancoField.Equals(value) != true)) {
+                    this.IdAgenciaBancoField = value;
+                    this.RaisePropertyChanged("IdAgenciaBanco");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> IdContabilConta {
+            get {
+                return this.IdContabilContaField;
+            }
+            set {
+                if ((this.IdContabilContaField.Equals(value) != true)) {
+                    this.IdContabilContaField = value;
+                    this.RaisePropertyChanged("IdContabilConta");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int IdEmpresa {
+            get {
+                return this.IdEmpresaField;
+            }
+            set {
+                if ((this.IdEmpresaField.Equals(value) != true)) {
+                    this.IdEmpresaField = value;
+                    this.RaisePropertyChanged("IdEmpresa");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Nome {
+            get {
+                return this.NomeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NomeField, value) != true)) {
+                    this.NomeField = value;
+                    this.RaisePropertyChanged("Nome");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Tipo {
+            get {
+                return this.TipoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TipoField, value) != true)) {
+                    this.TipoField = value;
+                    this.RaisePropertyChanged("Tipo");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ConvenioDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
+    [System.SerializableAttribute()]
+    public partial class ConvenioDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BairroField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string ContatoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<System.DateTime> DataCadastroField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<System.DateTime> DataVencimentoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<double> DescontoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescricaoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdContabilContaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdEmpresaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdPessoaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string LogradouroField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> MunicipioIbgeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NumeroField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string TelefoneField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string UfField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Bairro {
+            get {
+                return this.BairroField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BairroField, value) != true)) {
+                    this.BairroField = value;
+                    this.RaisePropertyChanged("Bairro");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Contato {
+            get {
+                return this.ContatoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ContatoField, value) != true)) {
+                    this.ContatoField = value;
+                    this.RaisePropertyChanged("Contato");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<System.DateTime> DataCadastro {
+            get {
+                return this.DataCadastroField;
+            }
+            set {
+                if ((this.DataCadastroField.Equals(value) != true)) {
+                    this.DataCadastroField = value;
+                    this.RaisePropertyChanged("DataCadastro");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<System.DateTime> DataVencimento {
+            get {
+                return this.DataVencimentoField;
+            }
+            set {
+                if ((this.DataVencimentoField.Equals(value) != true)) {
+                    this.DataVencimentoField = value;
+                    this.RaisePropertyChanged("DataVencimento");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<double> Desconto {
+            get {
+                return this.DescontoField;
+            }
+            set {
+                if ((this.DescontoField.Equals(value) != true)) {
+                    this.DescontoField = value;
+                    this.RaisePropertyChanged("Desconto");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Descricao {
+            get {
+                return this.DescricaoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
+                    this.DescricaoField = value;
+                    this.RaisePropertyChanged("Descricao");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> IdContabilConta {
+            get {
+                return this.IdContabilContaField;
+            }
+            set {
+                if ((this.IdContabilContaField.Equals(value) != true)) {
+                    this.IdContabilContaField = value;
+                    this.RaisePropertyChanged("IdContabilConta");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int IdEmpresa {
+            get {
+                return this.IdEmpresaField;
+            }
+            set {
+                if ((this.IdEmpresaField.Equals(value) != true)) {
+                    this.IdEmpresaField = value;
+                    this.RaisePropertyChanged("IdEmpresa");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int IdPessoa {
+            get {
+                return this.IdPessoaField;
+            }
+            set {
+                if ((this.IdPessoaField.Equals(value) != true)) {
+                    this.IdPessoaField = value;
+                    this.RaisePropertyChanged("IdPessoa");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Logradouro {
+            get {
+                return this.LogradouroField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.LogradouroField, value) != true)) {
+                    this.LogradouroField = value;
+                    this.RaisePropertyChanged("Logradouro");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> MunicipioIbge {
+            get {
+                return this.MunicipioIbgeField;
+            }
+            set {
+                if ((this.MunicipioIbgeField.Equals(value) != true)) {
+                    this.MunicipioIbgeField = value;
+                    this.RaisePropertyChanged("MunicipioIbge");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Numero {
+            get {
+                return this.NumeroField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NumeroField, value) != true)) {
+                    this.NumeroField = value;
+                    this.RaisePropertyChanged("Numero");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Telefone {
+            get {
+                return this.TelefoneField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.TelefoneField, value) != true)) {
+                    this.TelefoneField = value;
+                    this.RaisePropertyChanged("Telefone");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Uf {
+            get {
+                return this.UfField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.UfField, value) != true)) {
+                    this.UfField = value;
+                    this.RaisePropertyChanged("Uf");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="OperadoraCartaoDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
+    [System.SerializableAttribute()]
+    public partial class OperadoraCartaoDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string BandeiraField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string Fone1Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string Fone2Field;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdContaCaixaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdContabilContaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NomeField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<decimal> TaxaAdmField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<decimal> TaxaAdmDebitoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<decimal> ValorAluguelPosPinField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> VencimentoAluguelField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Bandeira {
+            get {
+                return this.BandeiraField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.BandeiraField, value) != true)) {
+                    this.BandeiraField = value;
+                    this.RaisePropertyChanged("Bandeira");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Fone1 {
+            get {
+                return this.Fone1Field;
+            }
+            set {
+                if ((object.ReferenceEquals(this.Fone1Field, value) != true)) {
+                    this.Fone1Field = value;
+                    this.RaisePropertyChanged("Fone1");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Fone2 {
+            get {
+                return this.Fone2Field;
+            }
+            set {
+                if ((object.ReferenceEquals(this.Fone2Field, value) != true)) {
+                    this.Fone2Field = value;
+                    this.RaisePropertyChanged("Fone2");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int IdContaCaixa {
+            get {
+                return this.IdContaCaixaField;
+            }
+            set {
+                if ((this.IdContaCaixaField.Equals(value) != true)) {
+                    this.IdContaCaixaField = value;
+                    this.RaisePropertyChanged("IdContaCaixa");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> IdContabilConta {
+            get {
+                return this.IdContabilContaField;
+            }
+            set {
+                if ((this.IdContabilContaField.Equals(value) != true)) {
+                    this.IdContabilContaField = value;
+                    this.RaisePropertyChanged("IdContabilConta");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Nome {
+            get {
+                return this.NomeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NomeField, value) != true)) {
+                    this.NomeField = value;
+                    this.RaisePropertyChanged("Nome");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<decimal> TaxaAdm {
+            get {
+                return this.TaxaAdmField;
+            }
+            set {
+                if ((this.TaxaAdmField.Equals(value) != true)) {
+                    this.TaxaAdmField = value;
+                    this.RaisePropertyChanged("TaxaAdm");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<decimal> TaxaAdmDebito {
+            get {
+                return this.TaxaAdmDebitoField;
+            }
+            set {
+                if ((this.TaxaAdmDebitoField.Equals(value) != true)) {
+                    this.TaxaAdmDebitoField = value;
+                    this.RaisePropertyChanged("TaxaAdmDebito");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<decimal> ValorAluguelPosPin {
+            get {
+                return this.ValorAluguelPosPinField;
+            }
+            set {
+                if ((this.ValorAluguelPosPinField.Equals(value) != true)) {
+                    this.ValorAluguelPosPinField = value;
+                    this.RaisePropertyChanged("ValorAluguelPosPin");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> VencimentoAluguel {
+            get {
+                return this.VencimentoAluguelField;
+            }
+            set {
+                if ((this.VencimentoAluguelField.Equals(value) != true)) {
+                    this.VencimentoAluguelField = value;
+                    this.RaisePropertyChanged("VencimentoAluguel");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="OperadoraPlanoSaudeDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
+    [System.SerializableAttribute()]
+    public partial class OperadoraPlanoSaudeDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private System.Nullable<int> IdContabilContaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdPessoaField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string RegistroAnsField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> IdContabilConta {
+            get {
+                return this.IdContabilContaField;
+            }
+            set {
+                if ((this.IdContabilContaField.Equals(value) != true)) {
+                    this.IdContabilContaField = value;
+                    this.RaisePropertyChanged("IdContabilConta");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int IdPessoa {
+            get {
+                return this.IdPessoaField;
+            }
+            set {
+                if ((this.IdPessoaField.Equals(value) != true)) {
+                    this.IdPessoaField = value;
+                    this.RaisePropertyChanged("IdPessoa");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string RegistroAns {
+            get {
+                return this.RegistroAnsField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.RegistroAnsField, value) != true)) {
+                    this.RegistroAnsField = value;
+                    this.RaisePropertyChanged("RegistroAns");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="TipoRelacionamentoDTO", Namespace="http://schemas.datacontract.org/2004/07/CadastrosBaseService.Model")]
+    [System.SerializableAttribute()]
+    public partial class TipoRelacionamentoDTO : object, System.Runtime.Serialization.IExtensibleDataObject, System.ComponentModel.INotifyPropertyChanged {
+        
+        [System.NonSerializedAttribute()]
+        private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string CodigoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string DescricaoField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private int IdField;
+        
+        [System.Runtime.Serialization.OptionalFieldAttribute()]
+        private string NomeField;
+        
+        [global::System.ComponentModel.BrowsableAttribute(false)]
+        public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
+            get {
+                return this.extensionDataField;
+            }
+            set {
+                this.extensionDataField = value;
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Codigo {
+            get {
+                return this.CodigoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.CodigoField, value) != true)) {
+                    this.CodigoField = value;
+                    this.RaisePropertyChanged("Codigo");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Descricao {
+            get {
+                return this.DescricaoField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.DescricaoField, value) != true)) {
+                    this.DescricaoField = value;
+                    this.RaisePropertyChanged("Descricao");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int Id {
+            get {
+                return this.IdField;
+            }
+            set {
+                if ((this.IdField.Equals(value) != true)) {
+                    this.IdField = value;
+                    this.RaisePropertyChanged("Id");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Nome {
+            get {
+                return this.NomeField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.NomeField, value) != true)) {
+                    this.NomeField = value;
+                    this.RaisePropertyChanged("Nome");
+                }
+            }
+        }
+        
+        public event System.ComponentModel.PropertyChangedEventHandler PropertyChanged;
+        
+        protected void RaisePropertyChanged(string propertyName) {
+            System.ComponentModel.PropertyChangedEventHandler propertyChanged = this.PropertyChanged;
+            if ((propertyChanged != null)) {
+                propertyChanged(this, new System.ComponentModel.PropertyChangedEventArgs(propertyName));
+            }
+        }
+    }
+    
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     [System.ServiceModel.ServiceContractAttribute(ConfigurationName="CadastrosBaseReference.IServicoCadastrosBase")]
     public interface IServicoCadastrosBase {
@@ -9061,201 +9061,6 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectControleAcesso", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectControleAcessoResponse")]
         System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ViewControleAcessoDTO> selectControleAcesso(CadastrosBaseClient.CadastrosBaseReference.ViewControleAcessoDTO viewControleAcesso);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteCstIcmsA", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteCstIcmsAResponse")]
-        int deleteCstIcmsA(CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCstIcmsA", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCstIcmsAResponse")]
-        int salvarAtualizarCstIcmsA(CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsA", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsAResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO> selectCstIcmsA(CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsAPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsAPaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO> selectCstIcmsAPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteCstIcmsB", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteCstIcmsBResponse")]
-        int deleteCstIcmsB(CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCstIcmsB", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCstIcmsBResponse")]
-        int salvarAtualizarCstIcmsB(CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsB", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsBResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO> selectCstIcmsB(CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsBPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsBPaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO> selectCstIcmsBPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteCstPis", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteCstPisResponse")]
-        int deleteCstPis(CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCstPis", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCstPisResponse")]
-        int salvarAtualizarCstPis(CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCstPis", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectCstPisResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstPisDTO> selectCstPis(CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCstPisPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectCstPisPaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstPisDTO> selectCstPisPagina(int primeiroResultados, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteSituacaoForCli", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteSituacaoForCliResponse")]
-        int deleteSituacaoForCli(CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarSituacaoForCli", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarSituacaoForCliResponse")]
-        int salvarAtualizarSituacaoForCli(CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectSituacaoForCli", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectSituacaoForCliResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO> selectSituacaoForCli(CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectSituacaoForCliPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectSituacaoForCliPaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO> selectSituacaoForCliPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteAtividadeForCli", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteAtividadeForCliResponse")]
-        int deleteAtividadeForCli(CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarAtividadeForCli", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarAtividadeForCliResponse")]
-        int salvarAtualizarAtividadeForCli(CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectAtividadeForCli", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectAtividadeForCliResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO> selectAtividadeForCli(CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectAtividadeForCliPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectAtividadeForCliPaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO> selectAtividadeForCliPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteCheque", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteChequeResponse")]
-        int deleteCheque(CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCheque", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarChequeResponse")]
-        int salvarAtualizarCheque(CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCheque", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectChequeResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ChequeDTO> selectCheque(CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectChequePagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectChequePaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ChequeDTO> selectChequePagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteTalonarioCheque", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteTalonarioChequeResponse")]
-        int deleteTalonarioCheque(CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarTalonarioCheque", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarTalonarioChequeResponse")]
-        int salvarAtualizarTalonarioCheque(CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectTalonarioCheque", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectTalonarioChequeResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO> selectTalonarioCheque(CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectTalonarioChequePagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectTalonarioChequePaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO> selectTalonarioChequePagina(int primeiroResultato, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteContaCaixa", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteContaCaixaResponse")]
-        int deleteContaCaixa(CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarContaCaixa", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarContaCaixaResponse")]
-        int salvarAtualizarContaCaixa(CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectContaCaixa", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectContaCaixaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO> selectContaCaixa(CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectContaCaixaPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectContaCaixaPaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO> selectContaCaixaPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteConvenio", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteConvenioResponse")]
-        int deleteConvenio(CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarConvenio", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarConvenioResponse")]
-        int salvarAtualizarConvenio(CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectConvenio", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectConvenioResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO> selectConvenio(CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectConvenioPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectConvenioPaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO> selectConvenioPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteOperadoraCartao", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteOperadoraCartaoResponse")]
-        int deleteOperadoraCartao(CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadorcartao);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarOperadoraCartao", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarOperadoraCartaoResponse")]
-        int salvarAtualizarOperadoraCartao(CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadoracartao);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectOperadoraCartao", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectOperadoraCartaoResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO> selectOperadoraCartao(CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadoracartao);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectOperadoraCartaoPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectOperadoraCartaoPaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO> selectOperadoraCartaoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadoracartao);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteOperadoraPlanoSaude", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteOperadoraPlanoSaudeResponse")]
-        int deleteOperadoraPlanoSaude(CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarOperadoraPlanoSaude", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarOperadoraPlanoSaudeRespon" +
-            "se")]
-        int salvarAtualizarOperadoraPlanoSaude(CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectOperadoraPlanoSaude", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectOperadoraPlanoSaudeResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO> selectOperadoraPlanoSaude(CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectOperadoraPlanoSaudePagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectOperadoraPlanoSaudePaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO> selectOperadoraPlanoSaudePagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteSindicato", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteSindicatoResponse")]
-        int deleteSindicato(CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarSindicato", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarSindicatoResponse")]
-        CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO salvarAtualizarSindicato(CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectSindicato", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectSindicatoResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO> selectSindicato(CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectSindicatoPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectSindicatoPaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO> selectSindicatoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteSituacaoColaborador", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteSituacaoColaboradorResponse")]
-        int deleteSituacaoColaborador(CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarSituacaoColaborador", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarSituacaoColaboradorRespon" +
-            "se")]
-        CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO salvarAtualizarSituacaoColaborador(CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectSituacaoColaborador", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectSituacaoColaboradorResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO> selectSituacaoColaborador(CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectSituacaoColaboradorPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectSituacaoColaboradorPaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO> selectSituacaoColaboradorPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteEstadoCivil", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteEstadoCivilResponse")]
-        int deleteEstadoCivil(CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarEstadoCivil", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarEstadoCivilResponse")]
-        int salvarAtualizarEstadoCivil(CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectEstadoCivil", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectEstadoCivilResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO> selectEstadoCivil(CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectEstadoCivilPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectEstadoCivilPaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO> selectEstadoCivilPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteTipoAdmissao", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteTipoAdmissaoResponse")]
-        int deleteTipoAdmissao(CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarTipoAdmissao", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarTipoAdmissaoResponse")]
-        CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO salvarAtualizarTipoAdmissao(CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectTipoAdmissao", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectTipoAdmissaoResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO> selectTipoAdmissao(CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectTipoAdmissaoPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectTipoAdmissaoPaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO> selectTipoAdmissaoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteTipoRelacionamento", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteTipoRelacionamentoResponse")]
-        int deleteTipoRelacionamento(CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarTipoRelacionamento", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarTipoRelacionamentoRespons" +
-            "e")]
-        CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO salvarAtualizarTipoRelacionamento(CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectTipoRelacionamento", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectTipoRelacionamentoResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO> selectTipoRelacionamento(CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento);
-        
-        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectTipoRelacionamentoPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectTipoRelacionamentoPaginaResponse")]
-        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO> selectTipoRelacionamentoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteCbo", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteCboResponse")]
         int deleteCbo(CadastrosBaseClient.CadastrosBaseReference.CboDTO cbo);
@@ -9451,6 +9256,201 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCstCofinsPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectCstCofinsPaginaResponse")]
         System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstCofinsDTO> selectCstCofinsPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstCofinsDTO cstcofins);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteCstIcmsA", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteCstIcmsAResponse")]
+        int deleteCstIcmsA(CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCstIcmsA", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCstIcmsAResponse")]
+        int salvarAtualizarCstIcmsA(CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsA", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsAResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO> selectCstIcmsA(CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsAPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsAPaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO> selectCstIcmsAPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteCstIcmsB", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteCstIcmsBResponse")]
+        int deleteCstIcmsB(CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCstIcmsB", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCstIcmsBResponse")]
+        int salvarAtualizarCstIcmsB(CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsB", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsBResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO> selectCstIcmsB(CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsBPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectCstIcmsBPaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO> selectCstIcmsBPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteCstPis", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteCstPisResponse")]
+        int deleteCstPis(CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCstPis", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCstPisResponse")]
+        int salvarAtualizarCstPis(CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCstPis", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectCstPisResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstPisDTO> selectCstPis(CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCstPisPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectCstPisPaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstPisDTO> selectCstPisPagina(int primeiroResultados, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteSituacaoForCli", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteSituacaoForCliResponse")]
+        int deleteSituacaoForCli(CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarSituacaoForCli", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarSituacaoForCliResponse")]
+        int salvarAtualizarSituacaoForCli(CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectSituacaoForCli", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectSituacaoForCliResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO> selectSituacaoForCli(CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectSituacaoForCliPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectSituacaoForCliPaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO> selectSituacaoForCliPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteAtividadeForCli", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteAtividadeForCliResponse")]
+        int deleteAtividadeForCli(CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarAtividadeForCli", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarAtividadeForCliResponse")]
+        int salvarAtualizarAtividadeForCli(CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectAtividadeForCli", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectAtividadeForCliResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO> selectAtividadeForCli(CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectAtividadeForCliPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectAtividadeForCliPaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO> selectAtividadeForCliPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteCheque", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteChequeResponse")]
+        int deleteCheque(CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarCheque", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarChequeResponse")]
+        int salvarAtualizarCheque(CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectCheque", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectChequeResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ChequeDTO> selectCheque(CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectChequePagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectChequePaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ChequeDTO> selectChequePagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteTalonarioCheque", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteTalonarioChequeResponse")]
+        int deleteTalonarioCheque(CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarTalonarioCheque", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarTalonarioChequeResponse")]
+        int salvarAtualizarTalonarioCheque(CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectTalonarioCheque", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectTalonarioChequeResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO> selectTalonarioCheque(CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectTalonarioChequePagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectTalonarioChequePaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO> selectTalonarioChequePagina(int primeiroResultato, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteContaCaixa", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteContaCaixaResponse")]
+        int deleteContaCaixa(CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarContaCaixa", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarContaCaixaResponse")]
+        int salvarAtualizarContaCaixa(CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectContaCaixa", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectContaCaixaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO> selectContaCaixa(CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectContaCaixaPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectContaCaixaPaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO> selectContaCaixaPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteConvenio", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteConvenioResponse")]
+        int deleteConvenio(CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarConvenio", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarConvenioResponse")]
+        int salvarAtualizarConvenio(CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectConvenio", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectConvenioResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO> selectConvenio(CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectConvenioPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectConvenioPaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO> selectConvenioPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteOperadoraCartao", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteOperadoraCartaoResponse")]
+        int deleteOperadoraCartao(CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadorcartao);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarOperadoraCartao", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarOperadoraCartaoResponse")]
+        int salvarAtualizarOperadoraCartao(CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadoracartao);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectOperadoraCartao", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectOperadoraCartaoResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO> selectOperadoraCartao(CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadoracartao);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectOperadoraCartaoPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectOperadoraCartaoPaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO> selectOperadoraCartaoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadoracartao);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteOperadoraPlanoSaude", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteOperadoraPlanoSaudeResponse")]
+        int deleteOperadoraPlanoSaude(CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarOperadoraPlanoSaude", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarOperadoraPlanoSaudeRespon" +
+            "se")]
+        int salvarAtualizarOperadoraPlanoSaude(CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectOperadoraPlanoSaude", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectOperadoraPlanoSaudeResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO> selectOperadoraPlanoSaude(CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectOperadoraPlanoSaudePagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectOperadoraPlanoSaudePaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO> selectOperadoraPlanoSaudePagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteSindicato", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteSindicatoResponse")]
+        int deleteSindicato(CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarSindicato", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarSindicatoResponse")]
+        CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO salvarAtualizarSindicato(CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectSindicato", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectSindicatoResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO> selectSindicato(CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectSindicatoPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectSindicatoPaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO> selectSindicatoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteSituacaoColaborador", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteSituacaoColaboradorResponse")]
+        int deleteSituacaoColaborador(CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarSituacaoColaborador", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarSituacaoColaboradorRespon" +
+            "se")]
+        CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO salvarAtualizarSituacaoColaborador(CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectSituacaoColaborador", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectSituacaoColaboradorResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO> selectSituacaoColaborador(CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectSituacaoColaboradorPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectSituacaoColaboradorPaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO> selectSituacaoColaboradorPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteEstadoCivil", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteEstadoCivilResponse")]
+        int deleteEstadoCivil(CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarEstadoCivil", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarEstadoCivilResponse")]
+        int salvarAtualizarEstadoCivil(CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectEstadoCivil", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectEstadoCivilResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO> selectEstadoCivil(CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectEstadoCivilPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectEstadoCivilPaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO> selectEstadoCivilPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteTipoAdmissao", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteTipoAdmissaoResponse")]
+        int deleteTipoAdmissao(CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarTipoAdmissao", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarTipoAdmissaoResponse")]
+        CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO salvarAtualizarTipoAdmissao(CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectTipoAdmissao", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectTipoAdmissaoResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO> selectTipoAdmissao(CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectTipoAdmissaoPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectTipoAdmissaoPaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO> selectTipoAdmissaoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/deleteTipoRelacionamento", ReplyAction="http://tempuri.org/IServicoCadastrosBase/deleteTipoRelacionamentoResponse")]
+        int deleteTipoRelacionamento(CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarTipoRelacionamento", ReplyAction="http://tempuri.org/IServicoCadastrosBase/salvarAtualizarTipoRelacionamentoRespons" +
+            "e")]
+        CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO salvarAtualizarTipoRelacionamento(CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectTipoRelacionamento", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectTipoRelacionamentoResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO> selectTipoRelacionamento(CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento);
+        
+        [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IServicoCadastrosBase/selectTipoRelacionamentoPagina", ReplyAction="http://tempuri.org/IServicoCadastrosBase/selectTipoRelacionamentoPaginaResponse")]
+        System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO> selectTipoRelacionamentoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -9708,262 +9708,6 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
             return base.Channel.selectControleAcesso(viewControleAcesso);
         }
         
-        public int deleteCstIcmsA(CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa) {
-            return base.Channel.deleteCstIcmsA(csticmsa);
-        }
-        
-        public int salvarAtualizarCstIcmsA(CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa) {
-            return base.Channel.salvarAtualizarCstIcmsA(csticmsa);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO> selectCstIcmsA(CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa) {
-            return base.Channel.selectCstIcmsA(csticmsa);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO> selectCstIcmsAPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa) {
-            return base.Channel.selectCstIcmsAPagina(primeiroResultado, quantidadeResultados, csticmsa);
-        }
-        
-        public int deleteCstIcmsB(CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb) {
-            return base.Channel.deleteCstIcmsB(csticmsb);
-        }
-        
-        public int salvarAtualizarCstIcmsB(CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb) {
-            return base.Channel.salvarAtualizarCstIcmsB(csticmsb);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO> selectCstIcmsB(CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb) {
-            return base.Channel.selectCstIcmsB(csticmsb);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO> selectCstIcmsBPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb) {
-            return base.Channel.selectCstIcmsBPagina(primeiroResultado, quantidadeResultados, csticmsb);
-        }
-        
-        public int deleteCstPis(CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis) {
-            return base.Channel.deleteCstPis(cstpis);
-        }
-        
-        public int salvarAtualizarCstPis(CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis) {
-            return base.Channel.salvarAtualizarCstPis(cstpis);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstPisDTO> selectCstPis(CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis) {
-            return base.Channel.selectCstPis(cstpis);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstPisDTO> selectCstPisPagina(int primeiroResultados, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis) {
-            return base.Channel.selectCstPisPagina(primeiroResultados, quantidadeResultados, cstpis);
-        }
-        
-        public int deleteSituacaoForCli(CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli) {
-            return base.Channel.deleteSituacaoForCli(situacaoforcli);
-        }
-        
-        public int salvarAtualizarSituacaoForCli(CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli) {
-            return base.Channel.salvarAtualizarSituacaoForCli(situacaoforcli);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO> selectSituacaoForCli(CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli) {
-            return base.Channel.selectSituacaoForCli(situacaoforcli);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO> selectSituacaoForCliPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli) {
-            return base.Channel.selectSituacaoForCliPagina(primeiroResultado, quantidadeResultados, situacaoforcli);
-        }
-        
-        public int deleteAtividadeForCli(CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli) {
-            return base.Channel.deleteAtividadeForCli(atividadeforcli);
-        }
-        
-        public int salvarAtualizarAtividadeForCli(CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli) {
-            return base.Channel.salvarAtualizarAtividadeForCli(atividadeforcli);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO> selectAtividadeForCli(CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli) {
-            return base.Channel.selectAtividadeForCli(atividadeforcli);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO> selectAtividadeForCliPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli) {
-            return base.Channel.selectAtividadeForCliPagina(primeiroResultado, quantidadeResultados, atividadeforcli);
-        }
-        
-        public int deleteCheque(CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque) {
-            return base.Channel.deleteCheque(cheque);
-        }
-        
-        public int salvarAtualizarCheque(CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque) {
-            return base.Channel.salvarAtualizarCheque(cheque);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ChequeDTO> selectCheque(CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque) {
-            return base.Channel.selectCheque(cheque);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ChequeDTO> selectChequePagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque) {
-            return base.Channel.selectChequePagina(primeiroResultado, quantidadeResultados, cheque);
-        }
-        
-        public int deleteTalonarioCheque(CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque) {
-            return base.Channel.deleteTalonarioCheque(talonariocheque);
-        }
-        
-        public int salvarAtualizarTalonarioCheque(CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque) {
-            return base.Channel.salvarAtualizarTalonarioCheque(talonariocheque);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO> selectTalonarioCheque(CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque) {
-            return base.Channel.selectTalonarioCheque(talonariocheque);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO> selectTalonarioChequePagina(int primeiroResultato, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque) {
-            return base.Channel.selectTalonarioChequePagina(primeiroResultato, quantidadeResultados, talonariocheque);
-        }
-        
-        public int deleteContaCaixa(CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa) {
-            return base.Channel.deleteContaCaixa(contacaixa);
-        }
-        
-        public int salvarAtualizarContaCaixa(CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa) {
-            return base.Channel.salvarAtualizarContaCaixa(contacaixa);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO> selectContaCaixa(CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa) {
-            return base.Channel.selectContaCaixa(contacaixa);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO> selectContaCaixaPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa) {
-            return base.Channel.selectContaCaixaPagina(primeiroResultado, quantidadeResultados, contacaixa);
-        }
-        
-        public int deleteConvenio(CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio) {
-            return base.Channel.deleteConvenio(convenio);
-        }
-        
-        public int salvarAtualizarConvenio(CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio) {
-            return base.Channel.salvarAtualizarConvenio(convenio);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO> selectConvenio(CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio) {
-            return base.Channel.selectConvenio(convenio);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO> selectConvenioPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio) {
-            return base.Channel.selectConvenioPagina(primeiroResultado, quantidadeResultados, convenio);
-        }
-        
-        public int deleteOperadoraCartao(CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadorcartao) {
-            return base.Channel.deleteOperadoraCartao(operadorcartao);
-        }
-        
-        public int salvarAtualizarOperadoraCartao(CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadoracartao) {
-            return base.Channel.salvarAtualizarOperadoraCartao(operadoracartao);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO> selectOperadoraCartao(CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadoracartao) {
-            return base.Channel.selectOperadoraCartao(operadoracartao);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO> selectOperadoraCartaoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadoracartao) {
-            return base.Channel.selectOperadoraCartaoPagina(primeiroResultado, quantidadeResultados, operadoracartao);
-        }
-        
-        public int deleteOperadoraPlanoSaude(CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude) {
-            return base.Channel.deleteOperadoraPlanoSaude(operadoraplanosaude);
-        }
-        
-        public int salvarAtualizarOperadoraPlanoSaude(CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude) {
-            return base.Channel.salvarAtualizarOperadoraPlanoSaude(operadoraplanosaude);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO> selectOperadoraPlanoSaude(CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude) {
-            return base.Channel.selectOperadoraPlanoSaude(operadoraplanosaude);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO> selectOperadoraPlanoSaudePagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude) {
-            return base.Channel.selectOperadoraPlanoSaudePagina(primeiroResultado, quantidadeResultados, operadoraplanosaude);
-        }
-        
-        public int deleteSindicato(CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato) {
-            return base.Channel.deleteSindicato(sindicato);
-        }
-        
-        public CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO salvarAtualizarSindicato(CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato) {
-            return base.Channel.salvarAtualizarSindicato(sindicato);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO> selectSindicato(CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato) {
-            return base.Channel.selectSindicato(sindicato);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO> selectSindicatoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato) {
-            return base.Channel.selectSindicatoPagina(primeiroResultado, quantidadeResultados, sindicato);
-        }
-        
-        public int deleteSituacaoColaborador(CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador) {
-            return base.Channel.deleteSituacaoColaborador(situacaoColaborador);
-        }
-        
-        public CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO salvarAtualizarSituacaoColaborador(CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador) {
-            return base.Channel.salvarAtualizarSituacaoColaborador(situacaoColaborador);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO> selectSituacaoColaborador(CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador) {
-            return base.Channel.selectSituacaoColaborador(situacaoColaborador);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO> selectSituacaoColaboradorPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador) {
-            return base.Channel.selectSituacaoColaboradorPagina(primeiroResultado, quantidadeResultados, situacaoColaborador);
-        }
-        
-        public int deleteEstadoCivil(CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil) {
-            return base.Channel.deleteEstadoCivil(estadoCivil);
-        }
-        
-        public int salvarAtualizarEstadoCivil(CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil) {
-            return base.Channel.salvarAtualizarEstadoCivil(estadoCivil);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO> selectEstadoCivil(CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil) {
-            return base.Channel.selectEstadoCivil(estadoCivil);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO> selectEstadoCivilPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil) {
-            return base.Channel.selectEstadoCivilPagina(primeiroResultado, quantidadeResultados, estadoCivil);
-        }
-        
-        public int deleteTipoAdmissao(CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao) {
-            return base.Channel.deleteTipoAdmissao(tipoAdmissao);
-        }
-        
-        public CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO salvarAtualizarTipoAdmissao(CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao) {
-            return base.Channel.salvarAtualizarTipoAdmissao(tipoAdmissao);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO> selectTipoAdmissao(CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao) {
-            return base.Channel.selectTipoAdmissao(tipoAdmissao);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO> selectTipoAdmissaoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao) {
-            return base.Channel.selectTipoAdmissaoPagina(primeiroResultado, quantidadeResultados, tipoAdmissao);
-        }
-        
-        public int deleteTipoRelacionamento(CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento) {
-            return base.Channel.deleteTipoRelacionamento(tipoRelacionamento);
-        }
-        
-        public CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO salvarAtualizarTipoRelacionamento(CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento) {
-            return base.Channel.salvarAtualizarTipoRelacionamento(tipoRelacionamento);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO> selectTipoRelacionamento(CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento) {
-            return base.Channel.selectTipoRelacionamento(tipoRelacionamento);
-        }
-        
-        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO> selectTipoRelacionamentoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento) {
-            return base.Channel.selectTipoRelacionamentoPagina(primeiroResultado, quantidadeResultados, tipoRelacionamento);
-        }
-        
         public int deleteCbo(CadastrosBaseClient.CadastrosBaseReference.CboDTO cbo) {
             return base.Channel.deleteCbo(cbo);
         }
@@ -10218,6 +9962,262 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
         
         public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstCofinsDTO> selectCstCofinsPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstCofinsDTO cstcofins) {
             return base.Channel.selectCstCofinsPagina(primeiroResultado, quantidadeResultados, cstcofins);
+        }
+        
+        public int deleteCstIcmsA(CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa) {
+            return base.Channel.deleteCstIcmsA(csticmsa);
+        }
+        
+        public int salvarAtualizarCstIcmsA(CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa) {
+            return base.Channel.salvarAtualizarCstIcmsA(csticmsa);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO> selectCstIcmsA(CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa) {
+            return base.Channel.selectCstIcmsA(csticmsa);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO> selectCstIcmsAPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstIcmsADTO csticmsa) {
+            return base.Channel.selectCstIcmsAPagina(primeiroResultado, quantidadeResultados, csticmsa);
+        }
+        
+        public int deleteCstIcmsB(CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb) {
+            return base.Channel.deleteCstIcmsB(csticmsb);
+        }
+        
+        public int salvarAtualizarCstIcmsB(CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb) {
+            return base.Channel.salvarAtualizarCstIcmsB(csticmsb);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO> selectCstIcmsB(CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb) {
+            return base.Channel.selectCstIcmsB(csticmsb);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO> selectCstIcmsBPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstIcmsBDTO csticmsb) {
+            return base.Channel.selectCstIcmsBPagina(primeiroResultado, quantidadeResultados, csticmsb);
+        }
+        
+        public int deleteCstPis(CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis) {
+            return base.Channel.deleteCstPis(cstpis);
+        }
+        
+        public int salvarAtualizarCstPis(CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis) {
+            return base.Channel.salvarAtualizarCstPis(cstpis);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstPisDTO> selectCstPis(CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis) {
+            return base.Channel.selectCstPis(cstpis);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.CstPisDTO> selectCstPisPagina(int primeiroResultados, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.CstPisDTO cstpis) {
+            return base.Channel.selectCstPisPagina(primeiroResultados, quantidadeResultados, cstpis);
+        }
+        
+        public int deleteSituacaoForCli(CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli) {
+            return base.Channel.deleteSituacaoForCli(situacaoforcli);
+        }
+        
+        public int salvarAtualizarSituacaoForCli(CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli) {
+            return base.Channel.salvarAtualizarSituacaoForCli(situacaoforcli);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO> selectSituacaoForCli(CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli) {
+            return base.Channel.selectSituacaoForCli(situacaoforcli);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO> selectSituacaoForCliPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.SituacaoForCliDTO situacaoforcli) {
+            return base.Channel.selectSituacaoForCliPagina(primeiroResultado, quantidadeResultados, situacaoforcli);
+        }
+        
+        public int deleteAtividadeForCli(CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli) {
+            return base.Channel.deleteAtividadeForCli(atividadeforcli);
+        }
+        
+        public int salvarAtualizarAtividadeForCli(CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli) {
+            return base.Channel.salvarAtualizarAtividadeForCli(atividadeforcli);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO> selectAtividadeForCli(CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli) {
+            return base.Channel.selectAtividadeForCli(atividadeforcli);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO> selectAtividadeForCliPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.AtividadeForCliDTO atividadeforcli) {
+            return base.Channel.selectAtividadeForCliPagina(primeiroResultado, quantidadeResultados, atividadeforcli);
+        }
+        
+        public int deleteCheque(CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque) {
+            return base.Channel.deleteCheque(cheque);
+        }
+        
+        public int salvarAtualizarCheque(CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque) {
+            return base.Channel.salvarAtualizarCheque(cheque);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ChequeDTO> selectCheque(CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque) {
+            return base.Channel.selectCheque(cheque);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ChequeDTO> selectChequePagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.ChequeDTO cheque) {
+            return base.Channel.selectChequePagina(primeiroResultado, quantidadeResultados, cheque);
+        }
+        
+        public int deleteTalonarioCheque(CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque) {
+            return base.Channel.deleteTalonarioCheque(talonariocheque);
+        }
+        
+        public int salvarAtualizarTalonarioCheque(CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque) {
+            return base.Channel.salvarAtualizarTalonarioCheque(talonariocheque);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO> selectTalonarioCheque(CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque) {
+            return base.Channel.selectTalonarioCheque(talonariocheque);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO> selectTalonarioChequePagina(int primeiroResultato, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.TalonarioChequeDTO talonariocheque) {
+            return base.Channel.selectTalonarioChequePagina(primeiroResultato, quantidadeResultados, talonariocheque);
+        }
+        
+        public int deleteContaCaixa(CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa) {
+            return base.Channel.deleteContaCaixa(contacaixa);
+        }
+        
+        public int salvarAtualizarContaCaixa(CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa) {
+            return base.Channel.salvarAtualizarContaCaixa(contacaixa);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO> selectContaCaixa(CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa) {
+            return base.Channel.selectContaCaixa(contacaixa);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO> selectContaCaixaPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.ContaCaixaDTO contacaixa) {
+            return base.Channel.selectContaCaixaPagina(primeiroResultado, quantidadeResultados, contacaixa);
+        }
+        
+        public int deleteConvenio(CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio) {
+            return base.Channel.deleteConvenio(convenio);
+        }
+        
+        public int salvarAtualizarConvenio(CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio) {
+            return base.Channel.salvarAtualizarConvenio(convenio);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO> selectConvenio(CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio) {
+            return base.Channel.selectConvenio(convenio);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO> selectConvenioPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.ConvenioDTO convenio) {
+            return base.Channel.selectConvenioPagina(primeiroResultado, quantidadeResultados, convenio);
+        }
+        
+        public int deleteOperadoraCartao(CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadorcartao) {
+            return base.Channel.deleteOperadoraCartao(operadorcartao);
+        }
+        
+        public int salvarAtualizarOperadoraCartao(CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadoracartao) {
+            return base.Channel.salvarAtualizarOperadoraCartao(operadoracartao);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO> selectOperadoraCartao(CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadoracartao) {
+            return base.Channel.selectOperadoraCartao(operadoracartao);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO> selectOperadoraCartaoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.OperadoraCartaoDTO operadoracartao) {
+            return base.Channel.selectOperadoraCartaoPagina(primeiroResultado, quantidadeResultados, operadoracartao);
+        }
+        
+        public int deleteOperadoraPlanoSaude(CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude) {
+            return base.Channel.deleteOperadoraPlanoSaude(operadoraplanosaude);
+        }
+        
+        public int salvarAtualizarOperadoraPlanoSaude(CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude) {
+            return base.Channel.salvarAtualizarOperadoraPlanoSaude(operadoraplanosaude);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO> selectOperadoraPlanoSaude(CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude) {
+            return base.Channel.selectOperadoraPlanoSaude(operadoraplanosaude);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO> selectOperadoraPlanoSaudePagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.OperadoraPlanoSaudeDTO operadoraplanosaude) {
+            return base.Channel.selectOperadoraPlanoSaudePagina(primeiroResultado, quantidadeResultados, operadoraplanosaude);
+        }
+        
+        public int deleteSindicato(CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato) {
+            return base.Channel.deleteSindicato(sindicato);
+        }
+        
+        public CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO salvarAtualizarSindicato(CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato) {
+            return base.Channel.salvarAtualizarSindicato(sindicato);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO> selectSindicato(CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato) {
+            return base.Channel.selectSindicato(sindicato);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO> selectSindicatoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.SindicatoDTO sindicato) {
+            return base.Channel.selectSindicatoPagina(primeiroResultado, quantidadeResultados, sindicato);
+        }
+        
+        public int deleteSituacaoColaborador(CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador) {
+            return base.Channel.deleteSituacaoColaborador(situacaoColaborador);
+        }
+        
+        public CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO salvarAtualizarSituacaoColaborador(CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador) {
+            return base.Channel.salvarAtualizarSituacaoColaborador(situacaoColaborador);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO> selectSituacaoColaborador(CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador) {
+            return base.Channel.selectSituacaoColaborador(situacaoColaborador);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO> selectSituacaoColaboradorPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.SituacaoColaboradorDTO situacaoColaborador) {
+            return base.Channel.selectSituacaoColaboradorPagina(primeiroResultado, quantidadeResultados, situacaoColaborador);
+        }
+        
+        public int deleteEstadoCivil(CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil) {
+            return base.Channel.deleteEstadoCivil(estadoCivil);
+        }
+        
+        public int salvarAtualizarEstadoCivil(CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil) {
+            return base.Channel.salvarAtualizarEstadoCivil(estadoCivil);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO> selectEstadoCivil(CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil) {
+            return base.Channel.selectEstadoCivil(estadoCivil);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO> selectEstadoCivilPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.EstadoCivilDTO estadoCivil) {
+            return base.Channel.selectEstadoCivilPagina(primeiroResultado, quantidadeResultados, estadoCivil);
+        }
+        
+        public int deleteTipoAdmissao(CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao) {
+            return base.Channel.deleteTipoAdmissao(tipoAdmissao);
+        }
+        
+        public CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO salvarAtualizarTipoAdmissao(CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao) {
+            return base.Channel.salvarAtualizarTipoAdmissao(tipoAdmissao);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO> selectTipoAdmissao(CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao) {
+            return base.Channel.selectTipoAdmissao(tipoAdmissao);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO> selectTipoAdmissaoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.TipoAdmissaoDTO tipoAdmissao) {
+            return base.Channel.selectTipoAdmissaoPagina(primeiroResultado, quantidadeResultados, tipoAdmissao);
+        }
+        
+        public int deleteTipoRelacionamento(CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento) {
+            return base.Channel.deleteTipoRelacionamento(tipoRelacionamento);
+        }
+        
+        public CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO salvarAtualizarTipoRelacionamento(CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento) {
+            return base.Channel.salvarAtualizarTipoRelacionamento(tipoRelacionamento);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO> selectTipoRelacionamento(CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento) {
+            return base.Channel.selectTipoRelacionamento(tipoRelacionamento);
+        }
+        
+        public System.Collections.Generic.List<CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO> selectTipoRelacionamentoPagina(int primeiroResultado, int quantidadeResultados, CadastrosBaseClient.CadastrosBaseReference.TipoRelacionamentoDTO tipoRelacionamento) {
+            return base.Channel.selectTipoRelacionamentoPagina(primeiroResultado, quantidadeResultados, tipoRelacionamento);
         }
     }
 }

@@ -4,7 +4,9 @@
                    namespace="CadastrosBaseService.Model" default-lazy="false">
   <class name="ContaCaixaDTO" table="conta_caixa">
     <id name="Id" column="ID">
-      <generator class="identity"/>
+      <generator class="sequence">
+        <param name="sequence">conta_caixa_id_seq</param>
+      </generator>
     </id>
     <property name="IdContabilConta" column="ID_CONTABIL_CONTA"/>
     <property name="IdEmpresa" column="ID_EMPRESA"/>

@@ -1396,167 +1396,26 @@
     <None Include="Service References\CadastrosBaseReference\CadastrosBaseClient.CadastrosBaseReference.ViewControleAcessoDTO.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\CadastrosBaseReference\ServicoCadastrosBase1.wsdl" />
-    <None Include="Service References\CadastrosBaseReference\ServicoCadastrosBase3.xsd" />
-    <None Include="Service References\CadastrosBaseReference\ServicoCadastrosBase31.xsd" />
-    <None Include="Service References\CadastrosBaseReference\ServicoCadastrosBase32.xsd" />
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.AlmoxarifadoDTO.datasource">
+    <None Include="Service References\CadastrosBaseReference\ServicoCadastrosBase.wsdl" />
+    <None Include="Service References\CadastrosBaseReference\ServicoCadastrosBase.xsd" />
+    <None Include="Service References\CadastrosBaseReference\ServicoCadastrosBase1.xsd" />
+    <None Include="Service References\CadastrosBaseReference\ServicoCadastrosBase2.xsd" />
+    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.ClienteDTO.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.AtividadeForCliDTO.datasource">
+    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.FornecedorDTO.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.BaseCreditoPisDTO.datasource">
+    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.PessoaDTO.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.CargoDTO.datasource">
+    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.TransportadoraDTO.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.CboDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.CepDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.CfopDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.ChequeDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.CodigoGpsDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.ColaboradorDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.ContabilContaDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.ContaCaixaDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.ContadorDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.ConvenioDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.CsosnADTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.CsosnBDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.CstCofinsDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.CstIcmsADTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.CstIcmsBDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.CstIpiDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.CstPisDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.EmpresaDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.EstadoCivilDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.FeriadosDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.NcmDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.NivelFormacaoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.OperadoraCartaoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.OperadoraPlanoSaudeDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.ProdutoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.ProdutoGrupoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.ProdutoMarcaDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.ProdutoSubGrupoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.SalarioMinimoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.SefipCodigoMovimentacaoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.SetorDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.SindicatoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.SituacaoColaboradorDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.SituacaoDocumentoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.SituacaoForCliDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.TalonarioChequeDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.TipoAdmissaoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.TipoColaboradorDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.TipoCreditoPisDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.TipoDesligamentoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.TipoRelacionamentoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.TributGrupoTributarioDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.TributIcmsCustomCabDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.TributOperacaoFiscalDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.UnidadeProdutoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.UsuarioDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\CadastrosBaseClient.CadastrosPrincipaisReference.ViewControleAcessoDTO.datasource">
-      <DependentUpon>Reference.svcmap</DependentUpon>
-    </None>
-    <None Include="Service References\CadastrosPrincipaisReference\ServicoCadastrosBase1.wsdl" />
-    <None Include="Service References\CadastrosPrincipaisReference\ServicoCadastrosBase3.xsd" />
-    <None Include="Service References\CadastrosPrincipaisReference\ServicoCadastrosBase31.xsd" />
-    <None Include="Service References\CadastrosPrincipaisReference\ServicoCadastrosBase32.xsd" />
+    <None Include="Service References\CadastrosPrincipaisReference\ServicoCadastrosPrincipais1.wsdl" />
+    <None Include="Service References\CadastrosPrincipaisReference\ServicoCadastrosPrincipais3.xsd" />
+    <None Include="Service References\CadastrosPrincipaisReference\ServicoCadastrosPrincipais31.xsd" />
+    <None Include="Service References\CadastrosPrincipaisReference\ServicoCadastrosPrincipais32.xsd" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -1880,10 +1739,10 @@
     <Resource Include="Imagens\relatorio.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\CadastrosBaseReference\ServicoCadastrosBase1.disco" />
+    <None Include="Service References\CadastrosBaseReference\ServicoCadastrosBase.disco" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Service References\CadastrosPrincipaisReference\ServicoCadastrosBase1.disco" />
+    <None Include="Service References\CadastrosPrincipaisReference\ServicoCadastrosPrincipais1.disco" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

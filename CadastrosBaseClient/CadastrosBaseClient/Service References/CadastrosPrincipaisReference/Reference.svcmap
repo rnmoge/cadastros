@@ -20,14 +20,14 @@
     <ServiceContractMappings />
   </ClientOptions>
   <MetadataSources>
-    <MetadataSource Address="http://localhost:1043/ServicoCadastrosBase.svc" Protocol="http" SourceId="1" />
+    <MetadataSource Address="http://localhost/CadastrosBaseService/ServicoCadastrosPrincipais.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ServicoCadastrosBase3.xsd" MetadataType="Schema" ID="983908d8-c16a-4cdf-8b54-a606fd3ef76a" SourceId="1" SourceUrl="http://localhost:1043/ServicoCadastrosBase.svc?xsd=xsd0" />
-    <MetadataFile FileName="ServicoCadastrosBase1.wsdl" MetadataType="Wsdl" ID="88f0e7f5-e9fe-4e50-a9be-1f213819ffb5" SourceId="1" SourceUrl="http://localhost:1043/ServicoCadastrosBase.svc?wsdl" />
-    <MetadataFile FileName="ServicoCadastrosBase31.xsd" MetadataType="Schema" ID="072c8cf7-b3f6-488c-a4f9-2ad6e01d13d8" SourceId="1" SourceUrl="http://localhost:1043/ServicoCadastrosBase.svc?xsd=xsd2" />
-    <MetadataFile FileName="ServicoCadastrosBase32.xsd" MetadataType="Schema" ID="2f479fa2-679f-4271-827d-fab1170d0d60" SourceId="1" SourceUrl="http://localhost:1043/ServicoCadastrosBase.svc?xsd=xsd1" />
-    <MetadataFile FileName="ServicoCadastrosBase1.disco" MetadataType="Disco" ID="45d37bea-b031-4282-b424-d96852b2c39a" SourceId="1" SourceUrl="http://localhost:1043/ServicoCadastrosBase.svc?disco" />
+    <MetadataFile FileName="ServicoCadastrosPrincipais3.xsd" MetadataType="Schema" ID="33576310-7633-4da4-a24d-02b097401621" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosPrincipais.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicoCadastrosPrincipais31.xsd" MetadataType="Schema" ID="4d8a0b0b-b7d7-4a1d-834a-f5d68c1134d0" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosPrincipais.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicoCadastrosPrincipais1.wsdl" MetadataType="Wsdl" ID="5c820bda-d77b-482d-b16c-9436609e2df9" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosPrincipais.svc?wsdl" />
+    <MetadataFile FileName="ServicoCadastrosPrincipais1.disco" MetadataType="Disco" ID="8f76a889-5212-4693-be31-35c5cc810e73" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosPrincipais.svc?disco" />
+    <MetadataFile FileName="ServicoCadastrosPrincipais32.xsd" MetadataType="Schema" ID="e1a585b8-4eb8-46ac-8631-24ae0cd624e8" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosPrincipais.svc?xsd=xsd0" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
