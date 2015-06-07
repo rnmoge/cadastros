@@ -4,7 +4,9 @@
                    namespace="CadastrosBaseService.Model" default-lazy="false">
   <class name="FeriadosDTO" table="feriados">
     <id name="Id" column="ID">
-      <generator class="identity"/>
+      <generator class="sequence">
+        <param name="sequence">feriados_id_seq</param>
+      </generator>
     </id>
     <property name="Ano" column="ANO"/>
     <property name="Nome" column="NOME"/>

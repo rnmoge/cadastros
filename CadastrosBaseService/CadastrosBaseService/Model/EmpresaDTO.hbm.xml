@@ -3,7 +3,9 @@
                    xmlns="urn:nhibernate-mapping-2.2" default-lazy="false">
   <class name="EmpresaDTO" table="empresa" >
     <id name="Id" column="ID">
-      <generator class="identity" />
+      <generator class="sequence">
+        <param name="sequence">empresa_id_seq</param>
+      </generator>
     </id>
     <property name="RazaoSocial" column="RAZAO_SOCIAL" />
     <property name="NomeFantasia" column="NOME_FANTASIA" />

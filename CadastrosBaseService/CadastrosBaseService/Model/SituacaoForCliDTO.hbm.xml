@@ -4,7 +4,9 @@
                    namespace="CadastrosBaseService.Model" default-lazy="false">
   <class name="SituacaoForCliDTO" table="situacao_for_cli">
     <id name="Id" column="ID">
-      <generator class="identity"/>
+      <generator class="sequence">
+        <param name="sequence">situacao_for_cli_id_seq</param>
+      </generator>
     </id>
     <property name="Nome" column="NOME"/>
     <property name="Descricao" column="DESCRICAO"/>

@@ -4,7 +4,9 @@
        namespace="CadastrosBaseService.Model" default-lazy="false">
 <class name="CsosnBDTO" table="csosn_b">
    <id name="id" column="id" type="Int32">
-      <generator class="identity" />
+     <generator class="sequence">
+       <param name="sequence">csosn_b_id_seq</param>
+     </generator>
     </id>
     <property name="codigo" column="CODIGO" type="string" length="3"/>
     <property name="descricao" column="DESCRICAO" type="string" length="250"/>

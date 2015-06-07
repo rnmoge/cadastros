@@ -4,7 +4,9 @@
                    namespace="CadastrosBaseService.Model" default-lazy="false">
   <class name="CstCofinsDTO" table="cst_cofins">
     <id name="Id" column="ID">
-      <generator class="identity"/>
+      <generator class="sequence">
+        <param name="sequence">cst_cofins_id_seq</param>
+      </generator>
     </id>
     <property name="Codigo" column="CODIGO"/>
     <property name="Descricao" column="DESCRICAO"/>

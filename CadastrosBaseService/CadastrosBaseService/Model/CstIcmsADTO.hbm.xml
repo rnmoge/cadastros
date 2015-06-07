@@ -4,7 +4,9 @@
                    namespace="CadastrosBaseService.Model" default-lazy="false">
   <class name="CstIcmsADTO" table="cst_icms_a">
     <id name="Id" column="ID">
-      <generator class="identity"/>
+      <generator class="sequence">
+        <param name="sequence">cst_icms_a_id_seq</param>
+      </generator>
     </id>
     <property name="Codigo" column="CODIGO"/>
     <property name="Descricao" column="DESCRICAO"/>

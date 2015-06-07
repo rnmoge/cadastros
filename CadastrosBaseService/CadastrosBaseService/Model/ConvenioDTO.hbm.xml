@@ -4,7 +4,9 @@
                    namespace="CadastrosBaseService.Model" default-lazy="false">
   <class name="ConvenioDTO" table="convenio">
     <id name="Id" column="ID">
-      <generator class="identity"/>
+      <generator class="sequence">
+        <param name="sequence">convenio_id_seq</param>
+      </generator>
     </id>
     <property name="IdPessoa" column="ID_PESSOA"/>
     <property name="IdContabilConta" column="ID_CONTABIL_CONTA"/>

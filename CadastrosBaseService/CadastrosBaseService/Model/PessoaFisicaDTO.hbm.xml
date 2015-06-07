@@ -2,7 +2,9 @@
 <hibernate-mapping assembly="CadastrosBaseService" namespace="CadastrosBaseService.Model" default-lazy="false" xmlns="urn:nhibernate-mapping-2.2">
   <class name="PessoaFisicaDTO" table="pessoa_fisica" >
     <id name="Id" column="ID">
-      <generator class="identity" />
+      <generator class="sequence">
+        <param name="sequence">pessoa_fisica_id_seq</param>
+      </generator>
     </id>
     <many-to-one name="EstadoCivil" column="ID_ESTADO_CIVIL" />
     <property name="IdPessoa" column="ID_PESSOA" />

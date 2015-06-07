@@ -4,7 +4,9 @@
                    namespace="CadastrosBaseService.Model" default-lazy="false">
   <class name="TalonarioChequeDTO" table="talonario_cheque">
     <id name="Id" column="ID">
-      <generator class="identity"/>
+      <generator class="sequence">
+        <param name="sequence">talonario_cheque_id_seq</param>
+      </generator>
     </id>
     <property name="IdContaCaixa" column="ID_CONTA_CAIXA"/>
     <property name="IdEmpresa" column="ID_EMPRESA"/>

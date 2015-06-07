@@ -4,7 +4,9 @@
        namespace="CadastrosBaseService.Model" default-lazy="false">
 <class name="SefipCodigoMovimentacaoDTO" table="sefip_codigo_movimentacao">
    <id name="Id" column="ID">
-      <generator class="identity" />
+     <generator class="sequence">
+       <param name="sequence">sefip_codigo_movimentacao_id_seq</param>
+     </generator>
     </id>
     <property name="Codigo" column="CODIGO"/>
     <property name="Descricao" column="DESCRICAO"/>

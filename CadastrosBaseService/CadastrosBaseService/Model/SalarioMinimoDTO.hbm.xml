@@ -4,7 +4,9 @@
        namespace="CadastrosBaseService.Model" default-lazy="false">
 <class name="SalarioMinimoDTO" table="salario_minimo">
    <id name="Id" column="ID">
-      <generator class="identity" />
+     <generator class="sequence">
+       <param name="sequence">salario_minimo_id_seq</param>
+     </generator>
     </id>
     <property name="Competencia" column="COMPETENCIA"/>
     <property name="Valor" column="VALOR"/>
