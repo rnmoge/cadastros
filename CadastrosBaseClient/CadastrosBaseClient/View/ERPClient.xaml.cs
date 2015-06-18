@@ -130,7 +130,7 @@ namespace CadastrosBaseClient.View
 
         private void BotaoNivelFormacao_Click(object sender, RoutedEventArgs e)
         {
-            //
+          //
         }
 
         private void BotaoColaborador_Click(object sender, RoutedEventArgs e)

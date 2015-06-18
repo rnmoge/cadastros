@@ -11,7 +11,7 @@ namespace CadastrosBaseService.Model
     {
         #region Propriedades
         [DataMember]
-        public int? Id { get; set; }
+        public int? id { get; set; }
         [DataMember]
         public string Nome { get; set; }
         [DataMember]

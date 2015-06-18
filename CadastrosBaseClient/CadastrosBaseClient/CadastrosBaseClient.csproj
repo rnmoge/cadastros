@@ -102,6 +102,7 @@
     <Compile Include="ViewModel\CadastrosBase\ColaboradorViewModel.cs" />
     <Compile Include="ViewModel\CadastrosBase\ContaCaixaViewModel.cs" />
     <Compile Include="ViewModel\CadastrosBase\ContadorViewModel.cs" />
+    <Compile Include="ViewModel\CadastrosBase\NivelFormacaoViewModel.cs" />
     <Compile Include="ViewModel\CadastrosBase\OperadoraCartaoViewModel.cs" />
     <Compile Include="ViewModel\CadastrosBase\OperadoraPlanoSaudeViewModel.cs" />
     <Compile Include="ViewModel\CadastrosBase\CboViewModel.cs" />

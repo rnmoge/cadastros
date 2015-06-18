@@ -3,7 +3,7 @@
                    assembly="CadastrosBaseService"
                    namespace="CadastrosBaseService.Model" default-lazy="false">
   <class name="AtividadeForCliDTO" table="atividade_for_cli">
-    <id name="Id" column="ID">
+    <id name="id" column="ID">
       <generator class="sequence">
         <param name="sequence">atividade_for_cli_id_seq</param>
       </generator>
