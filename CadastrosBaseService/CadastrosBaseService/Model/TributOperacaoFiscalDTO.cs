@@ -7,7 +7,7 @@ namespace CadastrosBaseService.Model {
     
     public class TributOperacaoFiscalDTO {
         public TributOperacaoFiscalDTO() { }
-        public int Id { get; set; }
+        public int id { get; set; }
         public EmpresaDTO Empresa { get; set; }
         public string Descricao { get; set; }
         public string DescricaoNaNf { get; set; }

@@ -3,12 +3,16 @@
        assembly="CadastrosBaseService"
        namespace="CadastrosBaseService.Model" default-lazy="false">
 <class name="SalarioMinimoDTO" table="salario_minimo">
-   <id name="Id" column="ID">
+   <id name="id" column="ID">
      <generator class="sequence">
        <param name="sequence">salario_minimo_id_seq</param>
      </generator>
     </id>
-    <property name="Competencia" column="COMPETENCIA"/>
-    <property name="Valor" column="VALOR"/>
+    <property name="vigencia" column="VIGENCIA"/>
+    <property name="valor_mensal" column="VALOR_MENSAL"/>
+    <property name="valor_diario" column="VALOR_DIARIO"/>
+    <property name="valor_hora" column="VALOR_HORA"/>
+    <property name="norma_legal" column="NORMA_LEGAL"/>
+    <property name="dou" column="DOU"/>
   </class>
 </hibernate-mapping>
