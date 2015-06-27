@@ -23,11 +23,11 @@
     <MetadataSource Address="http://localhost/CadastrosBaseService/ServicoCadastrosBase.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="ServicoCadastrosBase.xsd" MetadataType="Schema" ID="cf3a15d7-5c5a-47f0-95c4-5af2e2f8af1b" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosBase.svc?xsd=xsd0" />
-    <MetadataFile FileName="ServicoCadastrosBase1.xsd" MetadataType="Schema" ID="d537b15a-fcae-4cb1-bb44-aae2f8d53573" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosBase.svc?xsd=xsd1" />
-    <MetadataFile FileName="ServicoCadastrosBase.disco" MetadataType="Disco" ID="d1fe2ebc-1f7b-4d3e-be9b-80c693478bda" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosBase.svc?disco" />
-    <MetadataFile FileName="ServicoCadastrosBase.wsdl" MetadataType="Wsdl" ID="e78b203f-2423-4857-8cdf-08474884fdc7" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosBase.svc?wsdl" />
-    <MetadataFile FileName="ServicoCadastrosBase2.xsd" MetadataType="Schema" ID="6aedbe3a-1aa8-46f6-bdd4-a354078fc187" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosBase.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicoCadastrosBase.xsd" MetadataType="Schema" ID="c07837f0-8472-4472-b405-42485bd33031" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosBase.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicoCadastrosBase1.xsd" MetadataType="Schema" ID="7e3851cd-2f6f-4145-a8e2-353f80654cef" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosBase.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicoCadastrosBase.disco" MetadataType="Disco" ID="df5b9f6a-3a1d-495a-b754-b41ea82c9df3" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosBase.svc?disco" />
+    <MetadataFile FileName="ServicoCadastrosBase.wsdl" MetadataType="Wsdl" ID="dd53f3be-b0ea-4dab-b2eb-94854760e96b" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosBase.svc?wsdl" />
+    <MetadataFile FileName="ServicoCadastrosBase2.xsd" MetadataType="Schema" ID="725108ab-5f0f-40fc-9844-f107561cb30f" SourceId="1" SourceUrl="http://localhost/CadastrosBaseService/ServicoCadastrosBase.svc?xsd=xsd2" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

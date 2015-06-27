@@ -16,14 +16,14 @@
 			</Button>
 		</StackPanel>
 		<Grid>
-            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding ClienteSelected.ContabilConta.Id}" Height="23" Width="143" Margin="6,77,0,0"  />
-			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarContabilConta" Click="btPesquisarContabilConta_Click" Margin="159,77,0,0"  />
+            <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding ClienteSelected.ContabilConta.Id}" Height="23" Width="656" Margin="6,77,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarContabilConta" Click="btPesquisarContabilConta_Click" Margin="664,77,0,0"  />
             <Label Content="Conta Contabil" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,58,0,0"  />
 			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding ClienteSelected.TributOperacaoFiscal.Id}" Height="23" Width="161" Margin="6,125,0,0"  />
 			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarTributOperacaoFiscal" Click="btPesquisarTributOperacaoFiscal_Click" Margin="173,125,0,0"  />
 			<Label Content="Operacao Fiscal" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,106,0,0"  />
-			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding ClienteSelected.Pessoa.Id}" Height="23" Width="143" Margin="6,29,0,0"  />
-			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarPessoa" Click="btPesquisarPessoa_Click" Margin="158,29,0,0"  />
+			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding ClienteSelected.Pessoa.Id}" Height="23" Width="656" Margin="6,29,0,0"  />
+			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarPessoa" Click="btPesquisarPessoa_Click" Margin="664,29,0,0"  />
 			<Label Content="Pessoa" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="6,10,0,0"  />
 			<TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Text="{Binding ClienteSelected.AtividadeForCli.Id}" Height="23" Width="201" Margin="209,125,0,0"  />
 			<Button HorizontalAlignment="Left" VerticalAlignment="Top" Height="23" Content="..." Width="30" Name="btPesquisarAtividadeForCli" Click="btPesquisarAtividadeForCli_Click" Margin="410,125,0,0"  />

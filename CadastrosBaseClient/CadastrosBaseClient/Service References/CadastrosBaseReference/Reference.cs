@@ -3757,10 +3757,10 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
         private string DescricaoField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private int IdField;
+        private string NomeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NomeField;
+        private int idField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -3786,19 +3786,6 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public int Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
         public string Nome {
             get {
                 return this.NomeField;
@@ -3807,6 +3794,19 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
                 if ((object.ReferenceEquals(this.NomeField, value) != true)) {
                     this.NomeField = value;
                     this.RaisePropertyChanged("Nome");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public int id {
+            get {
+                return this.idField;
+            }
+            set {
+                if ((this.idField.Equals(value) != true)) {
+                    this.idField = value;
+                    this.RaisePropertyChanged("id");
                 }
             }
         }
@@ -7693,10 +7693,10 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
         private string DescricaoField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdField;
+        private string NomeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NomeField;
+        private System.Nullable<int> idField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -7722,19 +7722,6 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
         public string Nome {
             get {
                 return this.NomeField;
@@ -7743,6 +7730,19 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
                 if ((object.ReferenceEquals(this.NomeField, value) != true)) {
                     this.NomeField = value;
                     this.RaisePropertyChanged("Nome");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> id {
+            get {
+                return this.idField;
+            }
+            set {
+                if ((this.idField.Equals(value) != true)) {
+                    this.idField = value;
+                    this.RaisePropertyChanged("id");
                 }
             }
         }
@@ -7770,10 +7770,10 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
         private string DescricaoField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private System.Nullable<int> IdField;
+        private string NomeField;
         
         [System.Runtime.Serialization.OptionalFieldAttribute()]
-        private string NomeField;
+        private System.Nullable<int> idField;
         
         [global::System.ComponentModel.BrowsableAttribute(false)]
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData {
@@ -7799,19 +7799,6 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Id {
-            get {
-                return this.IdField;
-            }
-            set {
-                if ((this.IdField.Equals(value) != true)) {
-                    this.IdField = value;
-                    this.RaisePropertyChanged("Id");
-                }
-            }
-        }
-        
-        [System.Runtime.Serialization.DataMemberAttribute()]
         public string Nome {
             get {
                 return this.NomeField;
@@ -7820,6 +7807,19 @@ namespace CadastrosBaseClient.CadastrosBaseReference {
                 if ((object.ReferenceEquals(this.NomeField, value) != true)) {
                     this.NomeField = value;
                     this.RaisePropertyChanged("Nome");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public System.Nullable<int> id {
+            get {
+                return this.idField;
+            }
+            set {
+                if ((this.idField.Equals(value) != true)) {
+                    this.idField = value;
+                    this.RaisePropertyChanged("id");
                 }
             }
         }

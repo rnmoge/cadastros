@@ -11,13 +11,13 @@ namespace CadastrosBaseService.Model
     {
         #region Propriedades
         [DataMember]
-        public int? id { get; set; }
+        public int? Id { get; set; }
+        [DataMember]
+        public int IdPessoa { get; set; }
         [DataMember]
         public int? IdContabilConta { get; set; }
         [DataMember]
         public string RegistroAns { get; set; }
-        [DataMember]
-        public string nome { get; set; }
         #endregion
     }
 }
